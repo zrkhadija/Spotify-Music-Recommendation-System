@@ -27,7 +27,7 @@ This project implements an advanced music recommendation system using the Spotif
 
 >> Text: name + artist for LLM embeddings
 
-#Key Steps
+# Key Steps
 ## Exploratory Data Analysis (EDA)
 
 >Visualized distributions of audio features
@@ -38,7 +38,7 @@ This project implements an advanced music recommendation system using the Spotif
 
 >Explored genre and artist insights
 
-##Data Preprocessing
+## Data Preprocessing
 
 >Scaled numeric features using StandardScaler
 
@@ -54,7 +54,7 @@ This project implements an advanced music recommendation system using the Spotif
 
 >Combined embeddings with numeric/audio features to create a hybrid feature matrix
 
-##Recommendation Engine
+## Recommendation Engine
 
 >Implemented NearestNeighbors (cosine similarity) for retrieval
 
@@ -62,13 +62,13 @@ This project implements an advanced music recommendation system using the Spotif
 
 >Created a recommendation function returning top-N similar songs
 
-##Visualization
+## Visualization
 
 >Generated radar charts to compare features between query song and recommendations
 
 >Analyzed diversity, popularity, and similarity of recommended songs
 
-##Evaluation
+## Evaluation
 
 >Cosine similarity scores between recommended songs
 
