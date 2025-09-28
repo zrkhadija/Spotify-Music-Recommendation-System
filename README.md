@@ -26,3 +26,52 @@ This project implements an advanced music recommendation system using the Spotif
 >> Categorical: artist_encoded
 
 >> Text: name + artist for LLM embeddings
+
+#Key Steps
+## Exploratory Data Analysis (EDA)
+
+>Visualized distributions of audio features
+
+>Performed correlation analysis
+
+>Analyzed popularity trends over time
+
+>Explored genre and artist insights
+
+##Data Preprocessing
+
+>Scaled numeric features using StandardScaler
+
+>Encoded artists
+
+>Extracted song text for embeddings (name + artist)
+
+>Handled missing values and performed feature engineering (month, decade)
+
+>LLM Integration
+
+>Used SentenceTransformers (all-MiniLM-L6-v2) to generate semantic embeddings
+
+>Combined embeddings with numeric/audio features to create a hybrid feature matrix
+
+##Recommendation Engine
+
+>Implemented NearestNeighbors (cosine similarity) for retrieval
+
+>Weighted numeric/audio features and LLM embeddings
+
+>Created a recommendation function returning top-N similar songs
+
+##Visualization
+
+>Generated radar charts to compare features between query song and recommendations
+
+>Analyzed diversity, popularity, and similarity of recommended songs
+
+##Evaluation
+
+>Cosine similarity scores between recommended songs
+
+>Diversity of recommended songs (audio features)
+
+>Popularity bias analysis
