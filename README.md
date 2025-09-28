@@ -12,3 +12,17 @@ This project implements an advanced music recommendation system using the Spotif
 >Natural language processing with LLMs
 
 > Data visualization for interpretation
+
+## Dataset
+
+>> Source: Kaggle Spotify datasets (data.csv)
+
+>>Number of songs: 170,653
+
+>> Features include:
+
+>> Numeric/audio: valence, danceability, energy, popularity, tempo, explicit, mode, key
+
+>> Categorical: artist_encoded
+
+>> Text: name + artist for LLM embeddings
